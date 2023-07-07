@@ -54,29 +54,69 @@ nav a {
   align-items: center;
   justify-content: space-between;
 }
-.contactbtn{
-    color: #fd6e0a;
-    background-color: white;
-    margin-left: 30px;
+.contactbtn {
+  color: #fd6e0a;
+  background-color: white;
+  margin-left: 30px;
 }
 .greetings {
-  color: #474747;;
+  color: #474747;
   font-size: 45px;
   font-weight: 600;
   /* margin-bottom: 0px; */
 }
 .name {
-  color:#181818;
+  color: #181818;
   font-size: 85px;
   font-weight: 700;
   /* margin-top: 5px; */
   margin-bottom: 20px;
 }
-.quotes{
-    color: #757575;
-font-size: 18px;
-font-weight: 400; 
-margin-bottom: 30px;
-/* max-width: 580px; */
+.quotes {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  /* max-width: 580px; */
 }
 /* main section */
+main{
+    max-width: 1150px;
+    margin: 0px auto;
+}
+
+.section-title {
+  font-size: 55px;
+  font-weight: 700px;
+  color: #181818;
+  text-align: center;
+}
+.section-content {
+  font-size: 25px;
+  font-weight: 700px;
+  color: #757575;
+  text-align: center;
+  margin-top: 50px;
+}
+/* about section */
+.aboutme {
+  margin: 70px;
+  padding: 110px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+}
+.aboutinfo-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutinfo{
+    margin-right: 50px;
+    color: #757575;
+font-size: 20px;
+font-weight: 400; 
+margin-top: 30px;
+text-align: center;
+}
+.info-desc{
+    color: #010101;
+}
