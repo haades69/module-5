@@ -17,11 +17,13 @@
   color: white;
   padding: 15px 35px;
 }
+/* header section */
 /* nav related style */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
 }
 .mary {
   color: #181818;
@@ -40,3 +42,41 @@ nav a {
   text-decoration: none;
   color: #474747;
 }
+.header {
+  background-color: #fff8f3;
+  background-image: url("./images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactbtn{
+    color: #fd6e0a;
+    background-color: white;
+    margin-left: 30px;
+}
+.greetings {
+  color: #474747;;
+  font-size: 45px;
+  font-weight: 600;
+  /* margin-bottom: 0px; */
+}
+.name {
+  color:#181818;
+  font-size: 85px;
+  font-weight: 700;
+  /* margin-top: 5px; */
+  margin-bottom: 20px;
+}
+.quotes{
+    color: #757575;
+font-size: 18px;
+font-weight: 400; 
+margin-bottom: 30px;
+/* max-width: 580px; */
+}
+/* main section */
