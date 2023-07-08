@@ -92,7 +92,7 @@ main{
   text-align: center;
 }
 .section-content {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700px;
   color: #757575;
   text-align: center;
@@ -111,12 +111,58 @@ main{
 }
 .aboutinfo{
     margin-right: 50px;
-    color: #757575;
+
 font-size: 20px;
 font-weight: 400; 
 margin-top: 30px;
 text-align: center;
 }
+.infotitle{
+    color: #757575;
+}
 .info-desc{
     color: #010101;
+    font-weight: 900;
+}
+/* what i do section */
+.whatido{
+  margin-top:130px ;
+}
+.whatido-cont{
+  display: flex;
+  margin-top:50px ;
+  justify-content: space-around;
+  margin: 30px;
+}
+.whatido-box{
+  border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 20px 0px;
+width: 180px;
+height: 350px;
+margin-top: 50px;
+ align-items: center;
+ padding: 0px 30px 30px 30px;
+}
+
+.icons{
+  text-align: left;
+  width: 44px;
+  height: 44px;
+  margin: 30px 10px 30px 0px;
+}
+.box-header{
+  text-align: left;
+  font-weight: 700; 
+  color: #181818;
+  font-size: 20px;
+  /* display: inline; */
+}
+.box-description{
+  font-size: 16px;
+font-weight: 400; 
+color: #757575;
+text-align:left;
+margin-top: 20px;
+
 }
