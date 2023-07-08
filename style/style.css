@@ -175,19 +175,25 @@ margin-top: 20px;
 }
 .summary-container{
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   margin-top: 115px;
   margin-bottom: 50px;
   text-align: left;
   margin-left: 100px;
 }
-summary-cont{
+.summary-cont{
   margin-right: 50px;
+}
+.summary-box{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #474747;
+  padding-bottom:20px;
+
 }
 .my{
   font-size: 40px;
 font-weight: 700; 
-color: #474747;
+color:#474747;
 margin-bottom: 40px;
 }
 .places{
@@ -205,4 +211,26 @@ margin-bottom: 20px;
   font-size: 16px;
 font-weight: 400; 
 color: #757575;
+}
+/* footer part */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 120px;
+  margin-top: 115px;
+  background-color: #FFF8F3;
+}
+.footer-title{
+  margin-bottom: 20px;
+}
+.logodiv{
+  margin-top: 20px;
+}
+textarea{
+    margin-bottom: 25px;
+}
+.inputs{
+  width: 460px;
+  height: 60px;
+  margin-bottom: 25px;
 }
